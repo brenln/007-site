@@ -57,12 +57,15 @@ header a {
 
 }
 
-.navegacao a:hover,
-.navegacao .ativo {
+.navegacao a:hover{
     font-weight: bold;
     letter-spacing: 7px;
-    color: #14D921;
+    color: #073BD9;
     transition: all 0.3s ease;
+}
+
+.navegacao .ativo{
+    color: #14D921;
 }
 
 .inicio {

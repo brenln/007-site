@@ -106,10 +106,12 @@ body{
     z-index: 0;
     pointer-events: none;
 }
+
+
 @media (max-width: 576px) {
+    
     .canais img#img1{
-        width: 100%;
-        top: 10%;
+        display: none;
     }
     .canais img#img2{
         display: none;
@@ -120,25 +122,25 @@ body{
     .canais img#ddd{
         width: 10%;
         gap: 2rem;
-        right: 60%;
+        right: 70%;
         top: 70%;
     }
      .canais img#ttt{
         width: 10%;
         gap: 2rem;
-        right: 45%;
+        right: 55%;
         top: 70%;
     }
      .canais img#yyy{
         width: 10%;
         gap: 2rem;
-        right: 30%;
+        right: 40%;
         top: 70%;
     }
     
     .canais h1{
         font-size: 3rem;
-        right: 30%;
+        right: 45%;
         margin-top: 50%;
     }
     .canais h2{
@@ -154,7 +156,7 @@ body{
     }
     .canais #botao{
         top: 80%;
-        right: 35%;
+        right: 45%;
     }
 
 }
