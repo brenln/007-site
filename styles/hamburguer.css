@@ -9,7 +9,7 @@
     cursor: pointer;
     position: relative;
     right: -20%;
-    z-index: 2001; /* botão acima de tudo */
+    z-index: 2001;
 }
 
 .hamburguer span {
@@ -21,7 +21,6 @@
     transition: all 0.3s ease;
 }
 
-/* Quando ativo, transforma o botão em X */
 .hamburguer.ativo span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -32,14 +31,12 @@
     transform: rotate(-45deg) translate(7px, -8px);
 }
 
-/* Menu padrão */
 .navegacao {
     display: flex;
     gap: 10px;
     position: relative;
 }
 
-/* Responsivo */
 @media (max-width: 1000px) {
 .hamburguer {
     display: flex;

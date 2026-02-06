@@ -77,13 +77,13 @@ header a {
 }
 
 #backgroundmoco {
-    position: fixed; /*absolute ou fixed se quiser que fique preso à tela */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100%;       /* largura sempre 100% da tela */
-    height: auto;      /* altura proporcional à largura */
-    min-height: 100vh; /* garante que cubra no mínimo a tela inteira */
-    object-fit: cover; /* cobre a área sem distorcer */
+    width: 100%;       
+    height: auto;    
+    min-height: 100vh; 
+    object-fit: cover; 
     object-position: center;
     opacity: 0.25;
     pointer-events: none;
@@ -217,6 +217,57 @@ footer{
     margin-bottom: 0%;
 }
 
+@media (max-width: 1600px){
+    .navegacao a {
+    margin: 0 0px;
+    }
+
+    #descricao {
+    font-size: 1rem;
+    margin-top: 15%;
+    margin-right: 34%;
+    }
+    .inicio img#logocorp{
+    top: 4%;
+    }
+    #quadrado1{
+    position: absolute;
+    width: 90%;
+    top: -100%;
+    margin-left: 0%;
+    }
+    #quadrado2{
+        position: absolute;
+        top: -20%;
+        margin-left: -36%;
+    }
+    #quadrado3{
+        position: absolute;
+        top: -13%;
+        margin-left: -28%;
+    }
+    .conteudo h2 {
+        font-size: 2rem;
+        top: 180%;
+    }   
+    .conteudo img{
+        width: 50%;
+    }
+    .conteudo h1{
+    font-size: 4rem;
+    }
+    #imagem-conteudo-3{
+    top: 200%
+    }
+    #imagem-conteudo-4{
+        top: 260%;
+    }
+    #imagem-conteudo-5{
+    display: none;
+    }
+
+}
+
 @media (max-width: 1400px) {
     .navegacao a {
     margin: 0 0px;
@@ -268,7 +319,15 @@ footer{
 
 }
 
-@media (max-width: 1600px){
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
 
 }
 
@@ -282,7 +341,7 @@ footer{
         display: none;
     }
 
-    /* BACKGROUND */
+
     #backgroundmoco {
         position: fixed;
         top: 0;
@@ -318,7 +377,7 @@ footer{
         display: none;
     }
 
-    /* LOGOS */
+
     .inicio img#logocorp {
         width: 60%;
         right: -20%;

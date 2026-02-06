@@ -45,7 +45,7 @@
     top: 345px;
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1365px) and (max-width: 1600px) {
     .ranking #g1 {
     margin-top: 510px;
     left: 2%;

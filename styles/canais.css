@@ -160,7 +160,7 @@ body{
 }
 
 
-@media (max-width: 1400px) {
+@media (min-width: 1365px) and (max-width: 1600px) {
     .canais img#img1{
         width: 50%;
     }

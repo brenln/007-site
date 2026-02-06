@@ -126,7 +126,7 @@ body {
         top: 0;
         margin: 20px auto 40px auto;
         display: block;
-        order: 2; /* Imagem depois do texto */
+        order: 2;
     }
 
     .sobre img#imgsobre2 {
@@ -139,7 +139,6 @@ body {
         font-family: "JetBrains Mono", monospace;
     }
 
-    /* Melhorias de legibilidade */
     .textosobre > * {
         max-width: 100%;
         word-wrap: break-word;
