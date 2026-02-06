@@ -1,0 +1,192 @@
+body{
+    overflow: hidden;
+}
+
+.canais *{
+    z-index: 1;
+}
+.canais h1{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 6rem;
+    position: relative;
+    margin-left: 65%;
+    margin-top: 15%;
+    margin-bottom: 3rem;
+}  .canais h2{
+    margin-bottom: 3rem;
+    font-family: "JetBrains Mono", monospace;
+    position: relative;
+    margin-left: 65%;
+}
+
+.canais p{
+    margin-bottom: 0.5rem;
+    font-family: "JetBrains Mono", monospace;
+    position: relative;
+    margin-left: 65%;
+}.canais #dddgreen{
+    color: #14D921;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.canais img#ddd{
+    position: absolute;
+    width: 3%;
+    top: 70%;
+    right: 30%;
+    filter: invert(1);
+}.canais img#ttt{
+    position: absolute;
+    width: 3%;
+    top: 70%;
+    right: 25%;
+    filter: invert(1);
+}.canais img#yyy{
+    position: absolute;
+    width: 3%;
+    top: 70%;
+    right: 20%;
+    filter: invert(1);
+}.canais #botao{
+    position: absolute;
+    padding: 1rem;
+    top: 80%;
+    right: 23%;
+    border: none;
+    max-width: 10rem;
+    display: block;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(to right,#073BD9 0%, #000000 100%);
+    color: white;
+}
+
+.canais button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #14D921 0%, #000000 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.canais button:hover::before {
+    opacity: 1;
+}
+
+.canais button span {
+    position: relative;
+    z-index: 2;
+}
+
+.canais img#img1{
+    position: absolute;
+    top: 0%;
+    left: -5%;
+    pointer-events: none;
+}.canais img#img2{
+    position: absolute;
+    width: 30%;
+    top: 45%;
+    left: 30%;
+    pointer-events: none;
+}
+
+.imgsobre2 {
+    position: absolute;
+    top: -25%;
+    width: 90%;
+    right: -40%;
+    overflow: hidden;
+    z-index: 0;
+    pointer-events: none;
+}
+@media (max-width: 576px) {
+    .canais img#img1{
+        width: 100%;
+        top: 10%;
+    }
+    .canais img#img2{
+        display: none;
+    }
+    .imgsobre2 {
+        display: none;
+    }
+    .canais img#ddd{
+        width: 10%;
+        gap: 2rem;
+        right: 60%;
+        top: 70%;
+    }
+     .canais img#ttt{
+        width: 10%;
+        gap: 2rem;
+        right: 45%;
+        top: 70%;
+    }
+     .canais img#yyy{
+        width: 10%;
+        gap: 2rem;
+        right: 30%;
+        top: 70%;
+    }
+    
+    .canais h1{
+        font-size: 3rem;
+        right: 30%;
+        margin-top: 50%;
+    }
+    .canais h2{
+        right: 30%;
+        font-size: 1.5rem;
+        margin-left: 50%;
+    }
+    .canais p{
+        right: 30%;
+        font-size: 1rem;
+        margin-left: 50%;
+
+    }
+    .canais #botao{
+        top: 80%;
+        right: 35%;
+    }
+
+}
+
+
+@media (max-width: 1400px) {
+    .canais img#img1{
+        width: 50%;
+    }
+
+    .canais img#img2{
+        width: 40%;
+        top: 30%;
+        margin-left: -8%;
+    }
+    .canais h1{
+        margin-left: 59%;
+    }
+    .canais h2{
+        margin-top: -3%;
+        font-size: 1rem;
+        margin-left: 60%;
+    }
+    .canais p{
+        margin-top: -2%;
+        font-size: 1rem;
+        margin-left: 60%;
+
+    }
+
+}
+
+
+
+
