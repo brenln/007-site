@@ -106,8 +106,6 @@ body{
 }
 
 
-
-
 @media (max-width: 1200px){
     .canais img#img1{
         width: 68%;
@@ -165,7 +163,7 @@ body{
 
 @media (max-width: 576px) {
     body{
-        overflow-x: hidden;
+       overflow: auto;
     }
 
     .canais img#img1{
@@ -178,9 +176,7 @@ body{
         width: 60%;
     }
     .imgsobre2 {
-        top: 15%;
-        width: 80%;
-        overflow-x: hidden;
+        display: none;
     }
     .canais h1{
         font-size: 3rem;
@@ -199,7 +195,6 @@ body{
         padding: 0 15px;
         font-size: 0.9em;
         width: 90%;
-
     }
     .canais img#ddd{
         top: 60%;
