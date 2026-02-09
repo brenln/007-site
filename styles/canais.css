@@ -161,7 +161,7 @@ body{
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
     .canais img#img1{
         margin-top: 110%;

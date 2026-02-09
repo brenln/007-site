@@ -427,18 +427,18 @@ footer{
         display: none;
     }
 
-    #imagem-conteudo-1, #imagem-conteudo-4 {
+    #imagem-conteudo-1, #imagem-conteudo-3 {
         width: 100%;
     }
 
     #imagem-conteudo-1{
         top: -50%;
     }
-    #imagem-conteudo-4{
+    #imagem-conteudo-3{
         top: 90%;
     }
 
-    #imagem-conteudo-2, #imagem-conteudo-3, #imagem-conteudo-5 {
+    #imagem-conteudo-2, #imagem-conteudo-4, #imagem-conteudo-5 {
         display: none;
     }
 
