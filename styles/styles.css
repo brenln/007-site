@@ -266,12 +266,12 @@ footer{
         top: 260%;
     }
     #imagem-conteudo-5{
-    display: none;
+        top: 160%;
     }
 
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
     .navegacao a {
     margin: 0 0px;
     }
@@ -317,12 +317,74 @@ footer{
         top: 280%;
     }
     #imagem-conteudo-5{
-    display: none;
+        top: 160%;
     }
 
 }
 
 @media (max-width: 1200px) {
+    .navegacao a {
+    margin: 0 0px;
+    }
+
+    .inicio img#logo007 {
+        position: absolute;
+        top: -16%;
+        left: -2%;
+        pointer-events: none;
+        filter: invert(1);
+        width: 80%;
+    }
+    .inicio #descricao {
+    margin-top: 12%;
+    margin-left: 5%;
+    }
+    .inicio img#logocorp{
+    top: 15%;
+    }
+    #quadrado1{
+    position: absolute;
+    width: 100%;
+    top: -100%;
+    margin-left: 0%;
+    }
+    #quadrado2{
+        position: absolute;
+        top: -20%;
+        margin-left: -66%;
+    }
+    #quadrado3{
+        position: absolute;
+        top: -16%;
+        margin-left: -58%;
+    }
+    .conteudo h2 {
+        font-size: 1.8rem;
+        top: 180%;
+    }   
+    .conteudo img{
+        width: 50%;
+    }
+    .conteudo h1{
+    font-size: 3.8rem;
+    }
+    #imagem-conteudo-1{
+        top: 135%;
+    }
+    #imagem-conteudo-2{
+        top: 115%;
+    }
+    #imagem-conteudo-3{
+        top: 200%
+    }
+    #imagem-conteudo-4{
+        top: 315%;
+    }
+    #imagem-conteudo-5{
+        top: 180%;
+        width: 80%;
+    }
+
 
 }
 

@@ -17,7 +17,7 @@
     font-size: 6rem;
     position: absolute;
     top: 130px;
-    left: 4%;
+    left: 3%;
 }
 
 .titulo p {
@@ -56,6 +56,24 @@
     .elfsight-app-b8608f04-26d7-41c3-be4c-0fd9507f459a{
     top: 350px;
     }
+}
+
+@media (max-width: 1200px) {
+    .titulo h1 {
+    font-size: 5rem;
+    }
+    .ranking #g1 {
+    margin-top: 550px;
+    left: 0%;
+    } 
+    .ranking #g2 {
+    margin-top: 950px;
+    left: 0%;
+    }
+    
+    .elfsight-app-b8608f04-26d7-41c3-be4c-0fd9507f459a{
+    top: 350px;
+    }   
 }
 
 @media (max-width: 576px) {

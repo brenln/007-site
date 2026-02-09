@@ -35,8 +35,9 @@ body {
 }
 
 .textosobre h1{
+    margin-left: -1%;
     margin-top: 30%;
-    font-size: 6em;
+    font-size: 6rem;
     text-align: left;
     font-family: "JetBrains Mono", monospace;
 }
@@ -60,6 +61,36 @@ body {
     font-family: "JetBrains Mono", monospace;
 }
 
+@media (min-width: 1365px) and (max-width: 1600px){
+    .sobre{
+        margin-top: -2%;
+    }
+    .textosobre h1{
+        font-size: 5rem;
+}
+    .textosobre h2{
+        font-size: 1.4rem;
+    }
+
+    .textosobre p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .textosobre h1{
+        font-size: 4rem;
+}
+    .textosobre h2{
+        font-size: 1.2rem;
+    }
+
+    .textosobre{
+        font-size: 0.9rem;
+    }
+
+}
 
 
 @media (max-width: 576px) {
