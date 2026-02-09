@@ -3,7 +3,6 @@ body{
     overflow: hidden;
 }
 
-
 .canais h1{
     font-family: "JetBrains Mono", monospace;
     font-size: 6rem;
@@ -13,6 +12,7 @@ body{
     margin-bottom: 3rem;
 }  
 .canais h2{
+    margin-left: 65%;
     font-family: "JetBrains Mono", monospace;
     margin-bottom: 3rem;
     position: relative;
@@ -162,16 +162,13 @@ body{
 }
 
 @media (max-width: 576px) {
-    body{
-       overflow: auto;
-    }
 
     .canais img#img1{
-        top: 65%;
+        margin-top: 110%;
         width: 80%;
     }
     .canais img#img2{
-        top: 75%;
+        margin-top: 35%;
         left: 45%;
         width: 60%;
     }
@@ -197,23 +194,23 @@ body{
         width: 90%;
     }
     .canais img#ddd{
-        top: 50%;
+        margin-top: -70%;
         right: 80%;
         width: 8%;
     }
     .canais img#ttt{
-        top: 50%;
+        margin-top: -70%;
         right: 65%;
         width: 8%;
     }
     .canais img#yyy{
-        top: 50%;
+        margin-top: -70%;
         right: 50%;
         width: 8%;
     }
     .canais #botao{
-        top: 60%;
-        right: 45%;
+        margin-top: -80%;
+        right: 50%;
     }
 
 }
