@@ -194,6 +194,7 @@ main {
     .imgsobre2 {
         width: 100%;
         top: 10%;
+        z-index: 0;
     }
 
     .conteudo h1 {
@@ -223,6 +224,7 @@ main {
         max-width: 100%;
         font-size: 1rem;
         order: 1;
+        margin-top: 2%;
     }
 
     .formulario label,

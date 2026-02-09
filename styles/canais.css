@@ -1,5 +1,6 @@
 body{
     display: block;
+    overflow: hidden;
 }
 
 .canais *{
@@ -110,7 +111,9 @@ body{
 
 
 @media (max-width: 576px) {
-    
+    body{
+        overflow: auto;
+    }
     .canais img#img1{
         display: none;
     }
@@ -143,6 +146,7 @@ body{
     }
     .canais h2{
         right: 50%;
+        font-size: 0.5rem;
     }
     .canais p{
         right: 50%;
