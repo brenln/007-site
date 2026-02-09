@@ -167,11 +167,11 @@ body{
     }
 
     .canais img#img1{
-        top: 85%;
+        top: 65%;
         width: 80%;
     }
     .canais img#img2{
-        top: 95%;
+        top: 75%;
         left: 45%;
         width: 60%;
     }
@@ -197,22 +197,22 @@ body{
         width: 90%;
     }
     .canais img#ddd{
-        top: 60%;
+        top: 40%;
         right: 80%;
         width: 8%;
     }
     .canais img#ttt{
-        top: 60%;
+        top: 40%;
         right: 65%;
         width: 8%;
     }
     .canais img#yyy{
-        top: 60%;
+        top: 40%;
         right: 50%;
         width: 8%;
     }
     .canais #botao{
-        top: 70%;
+        top: 50%;
         right: 45%;
     }
 
