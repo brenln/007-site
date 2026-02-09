@@ -164,17 +164,23 @@ body{
 }
 
 @media (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+
     .canais img#img1{
-        top: 60%;
+        top: 85%;
         width: 80%;
     }
     .canais img#img2{
-        top: 70%;
+        top: 95%;
         left: 45%;
         width: 60%;
     }
     .imgsobre2 {
-        display: none;
+        top: 15%;
+        width: 80%;
+        overflow-x: hidden;
     }
     .canais h1{
         font-size: 3rem;
@@ -184,36 +190,35 @@ body{
     .canais h2{
         right: 50%;
         font-size: 1rem;
-        margin-top: -6%;
-        width: 70%;
+        margin-top: -10%;
+        width: 90%;
     }
     .canais p{
-        margin-top: -6%;
+        margin-top: -10%;
         right: 54%;
         padding: 0 15px;
         font-size: 0.9em;
-        width: 80%;
+        width: 90%;
 
     }
     .canais img#ddd{
-        top: 45%;
-        right: 85%;
-        width: 6%;
+        top: 60%;
+        right: 80%;
+        width: 8%;
     }
     .canais img#ttt{
-        top: 45%;
-        right: 75%;
-        width: 6%;
+        top: 60%;
+        right: 65%;
+        width: 8%;
     }
     .canais img#yyy{
-        top: 45%;
-        right: 65%;
-        width: 6%;
+        top: 60%;
+        right: 50%;
+        width: 8%;
     }
     .canais #botao{
-        top: 50%;
-        right: 50%;
-        width: 90%;
+        top: 70%;
+        right: 45%;
     }
 
 }
