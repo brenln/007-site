@@ -81,14 +81,11 @@ header a {
 
 #backgroundmoco {
     position: fixed; 
-    top: 0;
-    left: 0;
     width: 100%;       
-    height: auto;    
     min-height: 100vh; 
     object-fit: cover; 
     object-position: center;
-    opacity: 0.25;
+    opacity: 0.4;
     pointer-events: none;
     z-index: -1;
 }.inicio > *:not(#backgroundmoco) {
