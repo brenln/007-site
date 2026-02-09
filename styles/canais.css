@@ -161,15 +161,21 @@ body{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    body{
+    display: block;
+    overflow: hidden;
+    }
 
     .canais img#img1{
-        margin-top: 110%;
+        position: absolute;
+        top: 70%;
         width: 80%;
     }
     .canais img#img2{
-        margin-top: 35%;
-        left: 45%;
+        position: absolute;
+        top: 70%;
+        left: 50%;
         width: 60%;
     }
     .imgsobre2 {
@@ -194,22 +200,26 @@ body{
         width: 90%;
     }
     .canais img#ddd{
-        margin-top: -70%;
+        position: absolute;
+        top: 50%;
         right: 80%;
         width: 8%;
     }
     .canais img#ttt{
-        margin-top: -70%;
+        position: absolute;
+        top: 50%;
         right: 65%;
         width: 8%;
     }
     .canais img#yyy{
-        margin-top: -70%;
+        position: absolute;
+        top: 50%;
         right: 50%;
         width: 8%;
     }
     .canais #botao{
-        margin-top: -80%;
+        position: absolute;
+        top: 60%;
         right: 50%;
     }
 
