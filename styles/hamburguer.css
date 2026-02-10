@@ -40,6 +40,7 @@
 @media (max-width: 1000px) {
 .hamburguer {
     display: flex;
+    left: 5%;
 }
 
 .navegacao {
@@ -77,3 +78,4 @@
 }
 
 }
+

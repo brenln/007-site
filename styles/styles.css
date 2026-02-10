@@ -268,7 +268,7 @@ footer{
 
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1400px) {
     .navegacao a {
     margin: 0 0px;
     }
@@ -389,169 +389,272 @@ footer{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 577px) {
+  #backgroundmoco {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    min-width: 100%;
+    min-height: 100%;
+  }
 
+  .inicio img#logo007 {
+    position: absolute;
+    margin-top: 20%;
+    width: 80%;
+  }
+
+  .inicio img#logocorp {
+    position: absolute;
+    top: 15%;
+    width: 70%;
+    right: -30%;
+  }
+
+  .inicio #descricao {
+    position: relative;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .inicio img#quadrado1 {
+    position: absolute;
+    width: 120%;
+    margin-left: 0%;
+    top: -100%;
+  }
+
+  #quadrado2 {
+    position: absolute;
+    width: 80%;
+    left: 20%;
+  }
+
+  #quadrado3 {
+    position: absolute;
+    width: 80%;
+    left: 25%;
+  }
+
+  .conteudo h1 {
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    font-size: 3.5rem;
+  }
+
+  .conteudo h2 {
+    position: absolute;
+    top: 150%;
+  }
+
+  .conteudo #descricao {
+    position: absolute;
+    top: 170%;
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  #imagem-conteudo-1, #imagem-conteudo-2, #imagem-conteudo-3, #imagem-conteudo-4, #imagem-conteudo-5 {
+    position: absolute;
+    width: 60%;
+  }
+
+  #imagem-conteudo-1 {
+    top: 125%;
+  }
+
+  #imagem-conteudo-2 {
+    top: 100%;
+  }
+
+  #imagem-conteudo-3 {
+    top: 200%;
+  }
+
+  #imagem-conteudo-4 {
+    top: 280%;
+  }
+
+  #imagem-conteudo-5 {
+    top: 180%;
+    width: 80%;
+  }
+
+  footer {
+    margin-top: 130dvh;
+    padding: 20px 0;
+  }
 }
 
 @media (max-width: 576px) {
+  * {
+    max-width: 100vw;
+  }
 
-    .logo-img {
-        width: 60px;
-    }
+  body {
+    overflow-x: hidden;
+  }
 
-    .navegacao {
-        display: none;
-    }
+  .logo-img {
+    width: 60px;
+  }
 
+  .navegacao {
+    display: none;
+  }
 
-    #backgroundmoco {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: 50% 50%;
-        min-width: 100%;
-        min-height: 100%;
-    }
+  #backgroundmoco {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    min-width: 100%;
+    min-height: 100%;
+  }
 
-    body {
-        overflow-x: hidden;
-    }
+  #quadrado1,
+  #quadrado2,
+  #quadrado3 {
+    display: none;
+  }
 
-    #quadrado1, #quadrado2, #quadrado3 {
-        display: none;
-    }
+  .inicio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
 
-    #imagem-conteudo-1, #imagem-conteudo-3 {
-        width: 100%;
-    }
+  .inicio img#logo007 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -25%);
+    opacity: 0.9;
+  }
 
-    #imagem-conteudo-1{
-        top: -50%;
-    }
-    #imagem-conteudo-3{
-        top: 90%;
-    }
+  .inicio img#logocorp {
+    width: 60%;
+    right: -20%;
+    top: 56%;
+    opacity: 0.8;
+  }
 
-    #imagem-conteudo-2, #imagem-conteudo-4, #imagem-conteudo-5 {
-        display: none;
-    }
+  .inicio #descricao,
+  #descricao {
+    margin-top: 15%;
+    padding: 0 20px;
+    max-width: 90%;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  }
 
+  .conteudo {
+    position: relative;
+    z-index: 1;
+    margin-top: -120%;
+  }
 
-    .inicio img#logocorp {
-        width: 60%;
-        right: -20%;
-        top: 56%;
-        opacity: 0.8;
-    }
+  .conteudo h1 {
+    margin-top: -120%;
+    position: relative;
+    font-size: 2.2rem;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: 40px 20px 20px 20px;
+    line-height: 1.2;
+  }
 
-    .inicio img#logo007 {
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        width: 100%;
-        transform: translate(-50%, -25%);
-        opacity: 0.9;
-    }
+  .conteudo h2 {
+    position: relative;
+    font-size: 1.4rem;
+    left: 0;
+    top: 0;
+    max-width: 90%;
+    margin: 25px auto;
+    text-align: center;
+    line-height: 1.3;
+  }
 
-    #descricao {
-        margin-top: 15%;
-        padding: 0 20px;
-        max-width: 90%;
-        font-size: 14px;
-        line-height: 1.6;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-    }
+  .conteudo #descricao {
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: 90%;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 14px;
+  }
 
-    .conteudo {
-        position: relative;
-        z-index: 1;
-        margin-top: -120%;
-    }
+  .conteudo strong {
+    color: #14D921;
+    font-family: "JetBrains Mono", monospace;
+  }
 
-    .conteudo h1 {
-        margin-top: -120%;
-        position: relative;
-        font-size: 2.2rem;
-        left: 0;
-        top: 0;
-        text-align: center;
-        margin: 40px 20px 20px 20px;
-        line-height: 1.2;
-        
-    }
+  #imagem-conteudo-1,
+  #imagem-conteudo-4,
+  #imagem-conteudo-5 {
+    display: none;
+  }
 
-    .conteudo h2 {
-        position: relative;
-        font-size: 1.4rem;
-        left: 0;
-        top: 0;
-        max-width: 90%;
-        margin: 25px auto;
-        text-align: center;
-        line-height: 1.3;
-    }
+  #imagem-conteudo-2,
+  #imagem-conteudo-3 {
+    width: 100%;
+  }
 
-    .conteudo #descricao {
-        position: relative;
-        left: 0;
-        top: 0;
-        max-width: 90%;
-        margin: 20px auto;
-        line-height: 1.6;
-        font-size: 14px;
-    }
+  #imagem-conteudo-2 {
+    top: -50%;
+  }
 
-    .conteudo strong {
-        color: #14D921;
-        font-family: "JetBrains Mono", monospace;
-    }
+  #imagem-conteudo-3 {
+    top: 90%;
+  }
 
-    footer {
-        margin-top: 40dvh;
-        padding: 20px 0;
-    }
+  footer {
+    margin-top: 40dvh;
+    padding: 20px 0;
+  }
 
-    footer span {
-        font-size: 3rem;
-        display: block;
-        margin-bottom: 10px;
-    }
+  footer span {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 10px;
+  }
 
-    .footericon img {
-        width: 6%;
-        margin: 8px;
-        filter: invert(1);
-    }
+  .footericon img {
+    width: 6%;
+    margin: 8px;
+    filter: invert(1);
+  }
 
-    footer p {
-        font-size: 0.8rem;
-        margin: 10px 15px;
-        line-height: 1.4;
-    }
+  footer p {
+    font-size: 0.8rem;
+    margin: 10px 15px;
+    line-height: 1.4;
+  }
 
-    #linhafooter {
-        margin: 0 20px;
-    }
-
-    .inicio {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px;
-    }
-
-    * {
-        max-width: 100vw;
-    }
+  #linhafooter {
+    margin: 0 20px;
+  }
 }
