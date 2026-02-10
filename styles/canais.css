@@ -161,6 +161,65 @@ body{
 
 }
 
+@media (max-width: 768px) and (min-width: 577px){
+    body{
+    display: block;
+    overflow-y: hidden;
+}
+    .imgsobre2 {
+        margin-top: 25%;
+        width: 100%;
+    }
+    .canais img#img1{
+        position: absolute;
+        width: 60%;
+        top: 25%;
+        left: -7%;
+    }
+    .canais img#img2{
+        width: 40%;
+        top: 60%;
+        left: 32%;
+    }
+    .canais h1{
+        margin-left: 50%;
+    }
+    .canais h2{
+        font-size: 1rem;
+        margin-left: 50%;
+    }
+    .canais p{
+        font-size: 1rem;
+        margin-left: 50%;
+    }
+    .canais img#ddd{
+        position: absolute;
+        top: 50%;
+        right: 45%;
+        width: 5%;
+    }
+    .canais img#ttt{
+        position: absolute;
+        top: 50%;
+        right: 35%;
+        width: 5%;
+    }
+    .canais img#yyy{
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        width: 5%;
+    }
+    .canais #botao{
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        width: 100%;
+    }
+
+    
+}
+
 @media (max-width: 576px) {
     body{
     display: block;

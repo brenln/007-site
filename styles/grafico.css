@@ -4,12 +4,12 @@
 
 .ranking #g1 {
     position: absolute;
-    margin-top: 110px;
-    right: 2%;
+    margin-top: 510px;
+    left: 2%;
 } .ranking #g2 {
     position: absolute;
     margin-top: 510px;
-    right: 2%;
+    right: 20%;
 }
 
 .titulo h1 {

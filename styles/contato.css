@@ -166,6 +166,16 @@ main {
     }
 }
 
+@media (max-width: 768px) and (min-width: 577px){
+    .imgcontato {
+        margin-top: 30%;
+        width: 60%;
+    }
+    .imgsobre2 {
+        top: 0%;
+    }
+}
+
 @media (max-width: 576px) {
     body {
         overflow-x: hidden;
